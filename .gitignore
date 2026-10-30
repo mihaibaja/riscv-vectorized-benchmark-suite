@@ -1,6 +1,12 @@
 # --- Binarios y productos de compilacion -----------------------------------
 bin/
 build/
+build-*/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+.cache/
 *.exe
 *.dump
 *.o
@@ -8,6 +14,11 @@ build/
 *.so
 *.d
 *.out
+*.gcda
+*.gcno
+*.profraw
+*.profdata
+*.dSYM/
 *.log
 output/
 m5out/
